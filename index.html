@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="div-header">
+        <selection class="header">
+            <nav>
+                <a href="index.html"><img src="/images/logo.png" alt="logo trường"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="" onclick="tai_lai_trang()">HOME</a></li>
+                        <li><a href="https://www.facebook.com/TruongDaihocSaiGon.SGU">ABOUT</a></li>
+                        <li><a href="http://daotao.sgu.edu.vn/thong-bao/chuong-trinh-dao-tao">COURSE</a></li>
+                        <li><a href="https://www.facebook.com/groups/SaigonUni.SGU">BLOG</a></li>
+                        <li><a href="https://sgu.edu.vn/">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()" ></i>
+            </nav>
+            <div class="text-box">
+                <h1>Cheapest Public University</h1>
+                <p>it's a great school with a long history making website is now one of the easiest thing in the world.</p>
+                <a href="https://sgu.edu.vn/" class="hero-btn">Visit Us To Know More</a>
+            </div>    
+        </selection>
+    </div>
+    <!-----Courses----->
+    <div>   
+        <selection class="course">
+            <h1>Courses</h1>
+            <p>JavaScript</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</hh3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </selection>
+    </div> 
+    <!--campus-->
+    <div>
+        <selection class="campus">
+            <h1>Our Global Campus</h1>
+            <p>it's a great school with a long history making website is now one of the easiest thing in the world.</p>
+            <div class="campus-col">
+                <img src="./images/sgu.png" alt="campus">
+                <div class="layer">
+                    <h3>ZONE A IN SAI GON UNIVERSITY</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/sanhc.png" alt="campus">
+                <div class="layer">
+                    <h3>LOBBY C IN SAI GON UNIVERSITY</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/campus.png" alt="campus">
+                <div class="layer">
+                    <h3>OVERIVEW IN SAI GON UNIVERSITY</h3>
+                </div>
+            </div>
+        </selection>
+    </div>
+    <!--Facilities-->
+    <div>
+        <selection class="facilities">
+            <h1>Our facilities</h1>
+            <p>The school's facilities are average compared to other schools, only the age of the school is high</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./images/library.png" alt="library">
+                    <h3>LEARNING MATERIAL CENTER</h3>
+                    <p>Place for students to borrow materials</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/sach.png" alt="library">
+                    <h3>LEARNING MATERIAL CENTER</h3>
+                    <p>Place for students to borrow materials</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./images/library.png" alt="library">
+                    <h3>LEARNING MATERIAL CENTER</h3>
+                    <p>Place for students to borrow materials</p>
+                </div>
+            </div>
+        </selection>
+    </div>
+
+    <!--Comment-->
+    <div class="comment">
+        <label>Name: <br><input type="text" name="name"><br></label>
+        <label>Message: <br><textarea name="mes" cols="100" rows="10"></textarea></label><br>
+        <input type="submit" name="post" value="Post" onclick="nhan_du_lieu()">
+    </div>
+    <!--testimonials-->
+    <div>
+        <selection class="testimonials">
+            <h1>What Our Students Study</h1>
+            <p>The school's facilities are average compared to other schools, only the age of the school is high</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="./images/user1.png" alt="Students">
+                    <div>
+                        <p>VERY GOOD</p>
+                        <h3>Lăng tiêu</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="./images/user2.png" alt="Students">
+                    <div>
+                        <p>VERY GOOD</p>
+                        <h3>Michael</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star--half-o"></i>
+                    </div>
+                </div>
+            </div>
+        </selection>
+    </div>
+    <!--Call to action -->
+    <div class="div-cta">
+        <selection class="cta">
+            <h1>Enroll For Our Various Online Courses Anywhere From The World</h1>
+            <a href="https://sgu.edu.vn/" class="hero-btn">Contact Us</a>
+        </selection>
+    </div>
+    <!--Footer-->
+    <div class="div-footer">
+        <selection class="footer">
+            <h4>About Us</h4>
+            <p>Saigon University is a public institution of higher education and scientific research, training high-quality human resources to meet the socio-economic development requirements of Ho Chi Minh City and the whole country.
+            <br>Actively implement innovation and contribute to the development of higher education in Vietnam, striving to develop Saigon University into a research-oriented university of international standards by 2035.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+        </selection>
+    </div>
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+        function tai_lai_trang(){
+            location.reload();
+        }
+        function nhan_du_lieu(){
+            alert("Đã nhận comment!!!");
+        }
+    </script>  
+
+</body>
+</html>
